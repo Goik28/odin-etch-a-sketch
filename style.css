@@ -1,0 +1,66 @@
+body{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ffff;
+    border-radius: 30px;
+}
+
+.explanation,
+.sizes,
+.colors{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    align-self: center;
+}
+
+.canvas{
+    align-self: center;
+    justify-self: center;
+    height: 500px;
+    width: 500px;
+    margin: 20px 0px;
+    border: 3px solid #ffff;
+    border-radius: 15px;
+}
+
+button{
+    flex: 1 1 0;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid #ffff;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    flex: 1 0 0;
+}
+
+.explanation,
+.buttons,
+.log,
+.sizes,
+.colors{
+    margin: -3px;
+    border: 5px solid #ffff;
+    border-left: 0px;
+    border-right: 0px;
+}
