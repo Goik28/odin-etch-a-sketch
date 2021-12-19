@@ -28,6 +28,7 @@ p{
 }
 
 .canvas{
+    padding: 5px;
     align-self: center;
     justify-self: center;
     height: 500px;
@@ -35,6 +36,15 @@ p{
     margin: 20px 0px;
     border: 3px solid #ffff;
     border-radius: 15px;
+    display: grid;
+    gap: 1px;
+}
+
+input{
+    flex: 1 1 0;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
 }
 
 button{
